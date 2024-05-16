@@ -108,41 +108,68 @@
       </mj-column>
     </mj-section>
 
-    <mj-wrapper padding="40px 20px" css-class="td-border">
+    <mj-wrapper padding="40px 20px 20px" css-class="td-border">
 
-      <mj-section padding="0px" border="2px solid #DADADA">
-        <mj-column width="100%" padding="20px 20px">
+      <mj-section padding="20px 0 20px 20px" border="2px solid #DADADA">
+        <mj-column width="100%" padding="0px 0 20px 0">
           <mj-text padding="0" font-size="34px" font-weight="500" line-height="54.4px" color="#444444" font-family="Roboto">
             Оплатить заказ Вы можете по <a href="" style="color: #017ac3;">ссылке</a>
           </mj-text>
         </mj-column>
-        <mj-column>
-          <mj-text padding="0" font-size="16px" font-weight="500" line-height="25.6px" color="#444444" font-family="Roboto">
-            Просим Вас, по возможности, осуществить платёж по СБП
-            При оплате через СБП мы получим Ваш платёж мгновенно
+        <mj-column width="70%">
+          <mj-text padding="0px" font-size="16px" font-weight="400" line-height="25.6px" color="#444444" font-family="Roboto">
+            <span style="font-weight: 500">Просим Вас, по возможности, осуществить платёж по СБП</span>
+            При оплате через СБП мы получим Ваш платёж мгновенно <br>
             и с минимальной комиссией.
           </mj-text>
         </mj-column>
-        <mj-column>
-          <mj-image width="161px" src="img/sbp.jpg"></mj-image>
+        <mj-column width="30%" padding="0">
+          <mj-image padding="5px" width="161px" src="img/sbp.jpg"></mj-image>
         </mj-column>
       </mj-section>
 
     </mj-wrapper>
 
-
-    <!-- <mj-section padding="20px">
-      <mj-column>
-            <mj-text padding="0" font-size="16px" font-weight="500" line-height="25.6px" color="#444444" font-family="Roboto">
-            Просим Вас, по возможности, осуществить платёж по СБП
-            При оплате через СБП мы получим Ваш платёж мгновенно
-            и с минимальной комиссией.
+    <mj-wrapper padding="20px 20px" css-class="td-border">
+      <mj-section padding="20px 0px" border="2px solid #DADADA">
+        <mj-column width="100%" padding="0px" vertical-align="top">
+          <mj-text vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto">
+            <a href="https://www.irandiscovery.ru/services/gid-v-irane/" style="vertical-align: top; padding-right: 5px; border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 500; font-size: 18.7px; line-height: 22.8px; font-family: Roboto;">Гиды и переводчики в Иране</a>
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.46133 3.73124H4.76914C3.23979 3.73124 2 4.97102 2 6.50037V15.7309C2 17.2602 3.23979 18.5 4.76914 18.5H13.9996C15.529 18.5 16.7688 17.2602 16.7688 15.7309V12.0386M13.3838 2.50022L17.9995 2.5M17.9995 2.5V6.6538M17.9995 2.5L8.92218 11.5769" stroke="#017AC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
           </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-image width="161px" src="img/sbp.jpg"></mj-image>
-      </mj-column>
-    </mj-section> -->
+        </mj-column>
+
+        <mj-column width="25%" padding="0px">
+          <mj-image padding="0" width="154px" src="img/gid-01.jpg"></mj-image>
+        </mj-column>
+        <mj-column width="25%" padding="0px">
+          <mj-image padding="0" width="154px" src="img/gid-01.jpg"></mj-image>
+        </mj-column>
+        <mj-column width="25%" padding="0px">
+          <mj-image padding="0" width="154px" src="img/gid-01.jpg"></mj-image>
+        </mj-column>
+        <mj-column width="25%" padding="0px">
+          <mj-image padding="0" width="154px" src="img/gid-01.jpg"></mj-image>
+        </mj-column>
+
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="20px 20px" css-class="td-border">
+      <mj-section padding="20px 0px" border="2px solid #DADADA">
+        <mj-column padding="0px" vertical-align="top">
+          <mj-text vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto">
+            <a href="https://www.irandiscovery.ru/transp-services/arenda_avtomobilya_v_irane/" style="vertical-align: top; padding-right: 5px; border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 500; font-size: 18.7px; line-height: 22.8px; font-family: Roboto;">Аренда автомобиля Saipa Saina в Иране</a>
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.46133 3.73124H4.76914C3.23979 3.73124 2 4.97102 2 6.50037V15.7309C2 17.2602 3.23979 18.5 4.76914 18.5H13.9996C15.529 18.5 16.7688 17.2602 16.7688 15.7309V12.0386M13.3838 2.50022L17.9995 2.5M17.9995 2.5V6.6538M17.9995 2.5L8.92218 11.5769" stroke="#017AC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </mj-text>
+          <mj-image src="img/rent.jpg"></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
 
   </mj-body>
 
