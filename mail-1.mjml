@@ -1,0 +1,27 @@
+<mjml>
+  <mj-head>
+    <mj-title>A letter to the client from the payment forms</mj-title>
+    <mj-preview>A letter to the client from the payment forms</mj-preview>
+    <mj-style>
+
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="728px" background-color="#fff">
+    <mj-section padding-top="80px" padding-bottom="15px">
+
+      <mj-column>
+
+        <!-- <mj-image width="100px" src="https://mjml.io/assets/img/logo-small.png"></mj-image>
+        <mj-divider border-color="#F45E43"></mj-divider> -->
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto">
+          <span style="color: #a4aaaf;">Title:</span>
+          $USER_NAME USER_LAST_NAME
+        </mj-text>
+
+      </mj-column>
+
+    </mj-section>
+  </mj-body>
+
+</mjml>
