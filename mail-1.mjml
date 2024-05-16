@@ -132,6 +132,49 @@
 
     <mj-wrapper padding="20px 20px" css-class="td-border">
       <mj-section padding="20px 0px" border="2px solid #DADADA">
+
+        <mj-column width="100%" padding="0 0 20px 0" vertical-align="top">
+          <mj-text vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto">
+            <a href="https://www.irandiscovery.ru/hotels/" style="vertical-align: top; padding-right: 5px; border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 500; font-size: 18.7px; line-height: 22.8px; font-family: Roboto;">Забронировать отели в Иране</a>
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.46133 3.73124H4.76914C3.23979 3.73124 2 4.97102 2 6.50037V15.7309C2 17.2602 3.23979 18.5 4.76914 18.5H13.9996C15.529 18.5 16.7688 17.2602 16.7688 15.7309V12.0386M13.3838 2.50022L17.9995 2.5M17.9995 2.5V6.6538M17.9995 2.5L8.92218 11.5769" stroke="#017AC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </mj-text>
+        </mj-column>
+
+        <mj-group>
+
+          <mj-column padding="0">
+            <mj-image padding="0" width="154px" src="img/country-01.jpg"></mj-image>
+          </mj-column>
+          <mj-column padding="0">
+            <mj-text padding="0">
+              <h2 padding="0">Easy and quick</h2>
+              <p padding="0">Write less code, save time and code more efficiently with MJML’s semantic syntax.</p>
+            </mj-text>
+          </mj-column>
+
+          <mj-column>
+            <mj-image padding="0" width="154px" src="img/country-01.jpg"></mj-image>
+            <mj-text>
+              <h2>Responsive</h2>
+              <p>MJML is responsive by design on most-popular email clients, even Outlook.</p>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+
+        <!-- <mj-column width="50%" padding="0px">
+          <mj-image padding="0" width="154px" src="img/country-01.jpg"></mj-image>
+          <mj-text color="red">
+            <span>1</span>
+            <mj-text>
+        </mj-column> -->
+
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="20px 20px" css-class="td-border">
+      <mj-section padding="20px 0px" border="2px solid #DADADA">
         <mj-column width="100%" padding="0px" vertical-align="top">
           <mj-text vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto">
             <a href="https://www.irandiscovery.ru/services/gid-v-irane/" style="vertical-align: top; padding-right: 5px; border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 500; font-size: 18.7px; line-height: 22.8px; font-family: Roboto;">Гиды и переводчики в Иране</a>
