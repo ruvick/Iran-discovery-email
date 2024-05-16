@@ -3,25 +3,147 @@
     <mj-title>A letter to the client from the payment forms</mj-title>
     <mj-preview>A letter to the client from the payment forms</mj-preview>
     <mj-style>
+      h1 {
+        all: inherit;
+      }
 
+      table,
+      td {
+        border-collapse: separate !important;
+      }
+
+      .td-border td {
+        border-radius: 5px;
+      }
     </mj-style>
   </mj-head>
 
   <mj-body width="728px" background-color="#fff">
-    <mj-section padding-top="80px" padding-bottom="15px">
 
+    <mj-section padding="80px 20px 15px 20px">
       <mj-column>
-
         <!-- <mj-image width="100px" src="https://mjml.io/assets/img/logo-small.png"></mj-image>
         <mj-divider border-color="#F45E43"></mj-divider> -->
-        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto">
-          <span style="color: #a4aaaf;">Title:</span>
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
+          <span style="color: #a4aaaf; font-size: 24px; line-height: 38.4px; font-family: Roboto;">Title:</span>
           $USER_NAME USER_LAST_NAME
         </mj-text>
-
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
+          <span style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto;">заказ №</span>
+          $DEALNO
+          <a href="https://www.irandiscovery.ru/" style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto; text-decoration: none;">IranDiscovery.ru</a>
+        </mj-text>
       </mj-column>
-
     </mj-section>
+
+    <mj-section padding="15px 20px 8px 20px">
+      <mj-column>
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
+          <h1><span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto;">Здравствуйте,</span>
+            $USER_NAME USER_LAST_NAME</h1>
+        </mj-text>
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
+          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto;">Мы получили ваш заказ №</span>
+          $DEALNO
+          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto;">на следующие услуги:</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="8px 40px">
+      <mj-column border-top="1px dashed #DADADA" padding="20px 0">
+        <mj-text padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+          Туристическая виза в Иран
+        </mj-text>
+      </mj-column>
+      <mj-column border-top="1px dashed #DADADA" padding="20px 0">
+        <mj-text align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+          10 500 Р
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding="8px 40px">
+      <mj-column border-top="1px dashed #DADADA" padding="20px 0">
+        <mj-text padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+          Медицинская страховка 15 дней
+        </mj-text>
+      </mj-column>
+      <mj-column border-top="1px dashed #DADADA" padding="20px 0">
+        <mj-text align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+          1 200 Р
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="8px 40px">
+      <mj-column border-top="1px dashed #DADADA" padding="20px 0">
+        <mj-text padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+          IKIA Fast track & Business lounge
+        </mj-text>
+      </mj-column>
+      <mj-column border-top="1px dashed #DADADA" padding="20px 0">
+        <mj-text align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+          4 500 Р
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="8px 40px 20px 40px">
+      <mj-column border-top="1px dashed #DADADA" padding="20px 0">
+        <mj-text padding="0" font-size="20px" font-weight="bold" line-height="25px" color="#444444" font-family="Roboto">
+          Итого
+        </mj-text>
+      </mj-column>
+      <mj-column border-top="1px dashed #DADADA" padding="20px 0">
+        <mj-text align="right" font-weight="bold" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+          16 200 Р
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 20px">
+      <mj-column padding="0px" border-bottom="2px solid #DADADA">
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding="40px 20px" css-class="td-border">
+
+      <mj-section padding="0px" border="2px solid #DADADA">
+        <mj-column width="100%" padding="20px 20px">
+          <mj-text padding="0" font-size="34px" font-weight="500" line-height="54.4px" color="#444444" font-family="Roboto">
+            Оплатить заказ Вы можете по <a href="" style="color: #017ac3;">ссылке</a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text padding="0" font-size="16px" font-weight="500" line-height="25.6px" color="#444444" font-family="Roboto">
+            Просим Вас, по возможности, осуществить платёж по СБП
+            При оплате через СБП мы получим Ваш платёж мгновенно
+            и с минимальной комиссией.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image width="161px" src="img/sbp.jpg"></mj-image>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+
+    <!-- <mj-section padding="20px">
+      <mj-column>
+            <mj-text padding="0" font-size="16px" font-weight="500" line-height="25.6px" color="#444444" font-family="Roboto">
+            Просим Вас, по возможности, осуществить платёж по СБП
+            При оплате через СБП мы получим Ваш платёж мгновенно
+            и с минимальной комиссией.
+          </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image width="161px" src="img/sbp.jpg"></mj-image>
+      </mj-column>
+    </mj-section> -->
+
   </mj-body>
 
 </mjml>
