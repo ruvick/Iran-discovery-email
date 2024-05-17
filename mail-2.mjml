@@ -43,8 +43,8 @@
     <mj-section padding="15px 20px 8px 20px">
       <mj-column>
         <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
-          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto;">Здравствуйте,</span>
-          $USER_NAME USER_LAST_NAME
+          <h1><span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto;">Здравствуйте,</span>
+            $USER_NAME USER_LAST_NAME</h1>
         </mj-text>
         <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
           <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto;">Мы получили ваш заказ №</span>
