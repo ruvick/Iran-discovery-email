@@ -205,7 +205,7 @@
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
-              <a href="" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Дизин</a>
+              <a href="https://www.irandiscovery.ru/hotels/oteli-tegerana/dizin/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Дизин</a>
             </mj-text>
             <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Roboto">
               Тегеран
@@ -241,7 +241,7 @@
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
-              <a href="" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Сафави</a>
+              <a href="https://www.irandiscovery.ru/hotels/oteli-isfakhana/safavi/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Сафави</a>
             </mj-text>
             <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Roboto">
               Исфахан
@@ -275,7 +275,7 @@
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
-              <a href="" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Сабагиан</a>
+              <a href="https://www.irandiscovery.ru/hotels/oteli-kashana/sabagian/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Сабагиан</a>
             </mj-text>
             <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Roboto">
               Кашан
@@ -311,7 +311,7 @@
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
-              <a href="" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Фора Мехр</a>
+              <a href="https://www.irandiscovery.ru/hotels/oteli-shiraza/fora_mekhr/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Фора Мехр</a>
             </mj-text>
             <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Roboto">
               Шираз
@@ -345,8 +345,8 @@
     <mj-wrapper padding="20px 20px" css-class="td-border">
       <mj-section css-class="title-sec" padding="20px 0px" border="2px solid #DADADA">
         <mj-column css-class="title-block" width="100%" padding="0 0 20px 0" vertical-align="top">
-          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
-            Забронировать отели в Иране
+          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/services/gid-v-irane/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
+            Гиды и переводчики в Иране
             <img class="title-img" width="15px" src="https://i.postimg.cc/523XRH1G/rent-icon.png">
           </mj-button>
         </mj-column>
@@ -370,7 +370,7 @@
     <mj-wrapper padding="20px 20px" css-class="td-border">
       <mj-section css-class="title-sec" padding="20px 0px" border="2px solid #DADADA">
         <mj-column css-class="title-block" padding="0px" vertical-align="top">
-          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
+          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/transp-services/arenda_avtomobilya_v_irane/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
             Аренда автомобиля Saipa Saina в Иране
             <img class="title-img" width="15px" src="https://i.postimg.cc/523XRH1G/rent-icon.png">
           </mj-button>
@@ -391,19 +391,19 @@
             +7 499 938 46 38</a>
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="tel:+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+          <a href="https://t.me/+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
             <img class="contact-link" src="https://i.postimg.cc/L41nMQ2j/telegram.png" alt="Картинка">
             +7 499 938 46 38</a>
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="tel:+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+          <a href="https://wa.me/+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
             <img class="contact-link" src="https://i.postimg.cc/28N3jdSM/whatsap.png" alt="Картинка">
             +7 499 938 46 38</a>
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="tel:+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+          <a href="mailto:g@irandiscovery.ru" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
             <img class="contact-link" src="https://i.postimg.cc/N0nf3mnN/email.png" alt="Картинка">
-            +7 499 938 46 38</a>
+            g@irandiscovery.ru</a>
         </mj-text>
       </mj-column>
 
