@@ -32,6 +32,50 @@
         margin-right: 10px;
         margin-bottom: -5px;
       }
+
+      @media (max-width: 540px) {
+        .contacts-column td {
+          border-right: none !important;
+          padding-left: 0 !important;
+        }
+
+        .payment-sec td {
+          padding-right: 10px !important;
+        }
+      }
+
+      @media (max-width: 515px) {
+        .info-row div {
+          font-size: 18px !important;
+          line-height: 25px !important;
+        }
+
+        .payment-title div {
+          font-size: 26px !important;
+          line-height: 41.6px !important;
+        }
+
+        .payment-text {
+          font-size: 14px !important;
+          line-height: 22.4px !important;
+        }
+
+        .title-block td {
+          text-align: left !important;
+        }
+
+        .title-link a {
+          display: inline-block !important;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+
+        .title-sec td {
+          border: 0 !important;
+        }
+
+
+      }
     </mj-style>
   </mj-head>
 
@@ -39,40 +83,40 @@
 
     <mj-section padding="80px 20px 15px 20px">
       <mj-column>
-        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
           <span style="color: #a4aaaf; font-size: 24px; line-height: 38.4px; font-family: Roboto, Arial, sans-serif;">Title:</span>
           $USER_NAME USER_LAST_NAME
         </mj-text>
-        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
-          <span style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto;">заказ №</span>
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
+          <span style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto, Arial, sans-serif;">заказ №</span>
           $DEALNO
-          <a href="https://www.irandiscovery.ru/" style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto; text-decoration: none;">IranDiscovery.ru</a>
+          <a href="https://www.irandiscovery.ru/" style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto, Arial, sans-serif; text-decoration: none;">IranDiscovery.ru</a>
         </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section padding="15px 20px 8px 20px">
       <mj-column>
-        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
-          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto;">Здравствуйте,</span>
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
+          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">Здравствуйте,</span>
           $USER_NAME USER_LAST_NAME
         </mj-text>
-        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto" padding="0">
-          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto;">Мы получили ваш заказ №</span>
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
+          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">Мы получили ваш заказ №</span>
           $DEALNO
-          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto;">на следующие услуги:</span>
+          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">на следующие услуги:</span>
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section padding="8px 40px">
-      <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+    <mj-section css-class="info-section" padding="8px 40px">
+      <mj-column css-class="" border-top="1px dashed #DADADA" padding="20px 0 0 0">
+        <mj-text css-class="info-row" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
           Туристическая виза в Иран
         </mj-text>
       </mj-column>
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+        <mj-text css-class="info-row" align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
           10 500 Р
         </mj-text>
       </mj-column>
@@ -80,13 +124,13 @@
 
 
     <mj-section padding="8px 40px">
-      <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+      <mj-column border-top="1px dashed #dadada" padding="20px 0 0 0">
+        <mj-text css-class="info-row" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
           Медицинская страховка 15 дней
         </mj-text>
       </mj-column>
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+        <mj-text css-class="info-row" align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
           1 200 Р
         </mj-text>
       </mj-column>
@@ -94,12 +138,12 @@
 
     <mj-section padding="8px 40px">
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+        <mj-text css-class="info-row" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
           IKIA Fast track & Business lounge
         </mj-text>
       </mj-column>
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+        <mj-text css-class="info-row" align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
           4 500 Р
         </mj-text>
       </mj-column>
@@ -107,12 +151,12 @@
 
     <mj-section padding="8px 40px 20px 40px">
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text padding="0" font-size="20px" font-weight="bold" line-height="25px" color="#444444" font-family="Roboto">
+        <mj-text css-class="info-row" padding="0" font-size="20px" font-weight="bold" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
           Итого
         </mj-text>
       </mj-column>
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text align="right" font-weight="bold" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto">
+        <mj-text css-class="info-row" align="right" font-weight="bold" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
           16 200 Р
         </mj-text>
       </mj-column>
@@ -125,15 +169,15 @@
 
     <mj-wrapper padding="40px 20px 20px" css-class="td-border">
 
-      <mj-section padding="20px 0 20px 20px" border="2px solid #DADADA">
+      <mj-section css-class="payment-sec" padding="20px 0 20px 20px" border="2px solid #DADADA">
         <mj-column width="100%" padding="0px 0 20px 0">
-          <mj-text padding="0" font-size="34px" font-weight="500" line-height="54.4px" color="#444444" font-family="Roboto">
+          <mj-text css-class="payment-title" padding="0" font-size="34px" font-weight="500" line-height="54.4px" color="#444444" font-family="Roboto, Arial, sans-serif">
             Оплатить заказ Вы можете по <a href="" style="color: #017ac3;">ссылке</a>
           </mj-text>
         </mj-column>
         <mj-column width="70%">
-          <mj-text padding="0px" font-size="16px" font-weight="400" line-height="25.6px" color="#444444" font-family="Roboto">
-            <span style="font-weight: 500">Просим Вас, по возможности, осуществить платёж по СБП</span>
+          <mj-text padding="0px" font-size="16px" font-weight="400" line-height="25.6px" color="#444444" font-family="Roboto, Arial, sans-serif">
+            <span class="payment-text" style="font-weight: 500">Просим Вас, по возможности, осуществить платёж по СБП</span>
             При оплате через СБП мы получим Ваш платёж мгновенно <br>
             и с минимальной комиссией.
           </mj-text>
@@ -146,18 +190,18 @@
     </mj-wrapper>
 
     <mj-wrapper padding="20px 20px" css-class="td-border">
-      <mj-section padding="20px 0px" border="2px solid #DADADA">
-        <mj-column width="100%" padding="0 0 20px 0" vertical-align="top">
-          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto">
+      <mj-section css-class="title-sec" padding="20px 0px" border="2px solid #DADADA">
+        <mj-column css-class="title-block" width="100%" padding="0 0 20px 0" vertical-align="top">
+          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
             Забронировать отели в Иране
-            <img class="title-img" width="15px" src="img/rent-icon.png">
+            <img class="title-img" width="15px" src="https://i.postimg.cc/523XRH1G/rent-icon.png">
           </mj-button>
         </mj-column>
 
         <mj-group width="313px">
 
           <mj-column padding="0 0px 40px 0px">
-            <mj-image padding="0" width="154px" src="https://i.postimg.cc/JzH6CFrw/country-01.jpg"></mj-image>
+            <mj-image border-radius="6px" padding="0" width="154px" src="https://i.postimg.cc/JzH6CFrw/country-01.jpg"></mj-image>
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
@@ -168,18 +212,18 @@
             </mj-text>
 
             <mj-text padding="10px 0 5px 0">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star-empty.png" width="15px" alt="Картинка">
-              <img src="img/star-empty.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/Vvp6XMqr/star-empty.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/Vvp6XMqr/star-empty.png" width="15px" alt="Картинка">
             </mj-text>
 
             <mj-text padding="5px 0">
-              <img src="img/icon-01.png" width="20px" alt="Картинка">
-              <img src="img/icon-02.png" width="20px" alt="Картинка">
-              <img src="img/icon-03.png" width="20px" alt="Картинка">
-              <img src="img/icon-04.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/W3fbPrfW/icon-01.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/Z5hYZJVS/icon-02.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/Qdk8dvyW/icon-03.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/R0SM6Gkp/icon-04.png" width="20px" alt="Картинка">
             </mj-text>
 
             <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Roboto">
@@ -193,7 +237,7 @@
         <mj-group width="313px">
 
           <mj-column padding="0 0px 40px 0px">
-            <mj-image padding="0" width="154px" src="https://i.postimg.cc/FHbSSbGd/country-02.jpg"></mj-image>
+            <mj-image border-radius="6px" padding="0" width="154px" src="https://i.postimg.cc/FHbSSbGd/country-02.jpg"></mj-image>
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
@@ -204,16 +248,16 @@
             </mj-text>
 
             <mj-text padding="10px 0 5px 0">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star-empty.png" width="15px" alt="Картинка">
-              <img src="img/star-empty.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/Vvp6XMqr/star-empty.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/Vvp6XMqr/star-empty.png" width="15px" alt="Картинка">
             </mj-text>
 
             <mj-text padding="5px 0">
-              <img src="img/icon-02.png" width="20px" alt="Картинка">
-              <img src="img/icon-03.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/Z5hYZJVS/icon-02.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/Qdk8dvyW/icon-03.png" width="20px" alt="Картинка">
             </mj-text>
 
             <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Roboto">
@@ -227,7 +271,7 @@
         <mj-group width="313px">
 
           <mj-column padding="0 0px 40px 0px">
-            <mj-image padding="0" width="154px" src="https://i.postimg.cc/Cx4N0p3Q/country-03.jpg"></mj-image>
+            <mj-image border-radius="6px" padding="0" width="154px" src="https://i.postimg.cc/Cx4N0p3Q/country-03.jpg"></mj-image>
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
@@ -238,18 +282,18 @@
             </mj-text>
 
             <mj-text padding="10px 0 5px 0">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star-empty.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/Vvp6XMqr/star-empty.png" width="15px" alt="Картинка">
             </mj-text>
 
             <mj-text padding="5px 0">
-              <img src="img/icon-01.png" width="20px" alt="Картинка">
-              <img src="img/icon-02.png" width="20px" alt="Картинка">
-              <img src="img/icon-03.png" width="20px" alt="Картинка">
-              <img src="img/icon-04.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/W3fbPrfW/icon-01.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/Z5hYZJVS/icon-02.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/Qdk8dvyW/icon-03.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/R0SM6Gkp/icon-04.png" width="20px" alt="Картинка">
             </mj-text>
 
             <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Roboto">
@@ -263,7 +307,7 @@
         <mj-group width="313px">
 
           <mj-column padding="0 0px 40px 0px">
-            <mj-image padding="0" width="154px" src="https://i.postimg.cc/6Q5h51w5/country-04.jpg"></mj-image>
+            <mj-image border-radius="6px" padding="0" width="154px" src="https://i.postimg.cc/6Q5h51w5/country-04.jpg"></mj-image>
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
@@ -274,18 +318,17 @@
             </mj-text>
 
             <mj-text padding="10px 0 5px 0">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star.png" width="15px" alt="Картинка">
-              <img src="img/star-empty.png" width="15px" alt="Картинка">
-              <img src="img/star-empty.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/rmyKTqym/star.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/Vvp6XMqr/star-empty.png" width="15px" alt="Картинка">
+              <img src="https://i.postimg.cc/Vvp6XMqr/star-empty.png" width="15px" alt="Картинка">
             </mj-text>
 
             <mj-text padding="5px 0">
-
-              <img src="img/icon-02.png" width="20px" alt="Картинка">
-              <img src="img/icon-03.png" width="20px" alt="Картинка">
-              <img src="img/icon-04.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/Z5hYZJVS/icon-02.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/Qdk8dvyW/icon-03.png" width="20px" alt="Картинка">
+              <img src="https://i.postimg.cc/R0SM6Gkp/icon-04.png" width="20px" alt="Картинка">
             </mj-text>
 
             <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Roboto">
@@ -300,36 +343,36 @@
     </mj-wrapper>
 
     <mj-wrapper padding="20px 20px" css-class="td-border">
-      <mj-section padding="20px 0px" border="2px solid #DADADA">
-        <mj-column width="100%" padding="0px" vertical-align="top">
-          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto">
-            Гиды и переводчики в Иране
-            <img class="title-img" width="15px" src="img/rent-icon.png">
+      <mj-section css-class="title-sec" padding="20px 0px" border="2px solid #DADADA">
+        <mj-column css-class="title-block" width="100%" padding="0 0 20px 0" vertical-align="top">
+          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
+            Забронировать отели в Иране
+            <img class="title-img" width="15px" src="https://i.postimg.cc/523XRH1G/rent-icon.png">
           </mj-button>
         </mj-column>
 
         <mj-column width="163px" padding="8px">
-          <mj-image padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/FzQd17cg/gid-01.jpg"></mj-image>
+          <mj-image align="left" padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/FzQd17cg/gid-01.jpg"></mj-image>
         </mj-column>
         <mj-column width="163px" padding="8px">
-          <mj-image padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/zDnH6FZd/gid-02.jpg"></mj-image>
+          <mj-image align="left" padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/zDnH6FZd/gid-02.jpg"></mj-image>
         </mj-column>
         <mj-column width="163px" padding="8px">
-          <mj-image padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/KjrKTxDX/gid-03.jpg"></mj-image>
+          <mj-image align="left" padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/KjrKTxDX/gid-03.jpg"></mj-image>
         </mj-column>
         <mj-column width="163px" padding="8px">
-          <mj-image padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/pTj52D9L/gid-04.jpg"></mj-image>
+          <mj-image align="left" padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/pTj52D9L/gid-04.jpg"></mj-image>
         </mj-column>
 
       </mj-section>
     </mj-wrapper>
 
     <mj-wrapper padding="20px 20px" css-class="td-border">
-      <mj-section padding="20px 0px" border="2px solid #DADADA">
-        <mj-column padding="0px" vertical-align="top">
-          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto">
+      <mj-section css-class="title-sec" padding="20px 0px" border="2px solid #DADADA">
+        <mj-column css-class="title-block" padding="0px" vertical-align="top">
+          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
             Аренда автомобиля Saipa Saina в Иране
-            <img class="title-img" width="15px" src="img/rent-icon.png">
+            <img class="title-img" width="15px" src="https://i.postimg.cc/523XRH1G/rent-icon.png">
           </mj-button>
           <mj-image border-radius="6px" src="https://i.postimg.cc/fyZyD1n8/rent.jpg"></mj-image>
         </mj-column>
@@ -338,37 +381,37 @@
 
     <mj-section padding="20px 20px 80px 20px">
 
-      <mj-column padding="0px 0 30px 0" vertical-align="top" border-right="1px solid #e7e7f0">
-        <mj-text padding="0 0 20px 0" font-size="16px" font-weight="400" line-height="19.5px" color="#2c2d2e" font-family="Roboto">
+      <mj-column css-class="contacts-column" padding="0px 30px 30px 0" vertical-align="top" border-right="1px solid #e7e7f0">
+        <mj-text padding="0 0 20px 0" font-size="16px" font-weight="400" line-height="19.5px" color="#2c2d2e" font-family="Roboto, Arial, sans-serif">
           Отдел по работе с клиентами
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="tel:+74999384638" style="padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto;">
-            <img class="contact-link" src="img/phone.png" alt="Картинка">
+          <a href="tel:+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+            <img class="contact-link" src="https://i.postimg.cc/9Mv07Zt4/phone.png" alt="Картинка">
             +7 499 938 46 38</a>
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="tel:+74999384638" style="padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto;">
-            <img class="contact-link" src="img/telegram.png" alt="Картинка">
+          <a href="tel:+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+            <img class="contact-link" src="https://i.postimg.cc/L41nMQ2j/telegram.png" alt="Картинка">
             +7 499 938 46 38</a>
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="tel:+74999384638" style="padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto;">
-            <img class="contact-link" src="img/whatsap.png" alt="Картинка">
+          <a href="tel:+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+            <img class="contact-link" src="https://i.postimg.cc/28N3jdSM/whatsap.png" alt="Картинка">
             +7 499 938 46 38</a>
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="tel:+74999384638" style="padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto;">
-            <img class="contact-link" src="img/email.png" alt="Картинка">
+          <a href="tel:+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+            <img class="contact-link" src="https://i.postimg.cc/N0nf3mnN/email.png" alt="Картинка">
             +7 499 938 46 38</a>
         </mj-text>
       </mj-column>
 
-      <mj-column padding="0px 0 0 30px" vertical-align="top">
-        <mj-text padding="0 0 20px 0" vertical-align="top" font-size="16px" font-weight="400" line-height="19.5px" color="#2c2d2e" font-family="Roboto">
+      <mj-column css-class="contacts-column" padding="0px 0 0 30px" vertical-align="top">
+        <mj-text padding="0 0 20px 0" vertical-align="top" font-size="16px" font-weight="400" line-height="19.5px" color="#2c2d2e" font-family="Roboto, Arial, sans-serif">
           С Уважением, команда IranDiscovery
         </mj-text>
-        <mj-image src="https://i.postimg.cc/Qx8CPLqt/logo.jpg"></mj-image>
+        <mj-image align="left" src="https://i.postimg.cc/Qx8CPLqt/logo.jpg"></mj-image>
       </mj-column>
 
     </mj-section>
