@@ -99,7 +99,7 @@
       <mj-column>
         <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
           <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">Здравствуйте,</span>
-          $USER_NAME USER_LAST_NAME
+          $USER_NAME USER_LAST_NAME<span style="color: #444444; font: 20px Montserrat, Arial, sans-serif; line-height: 38.4px; -webkit-text-size-adjust:none;">!</span>
         </mj-text>
         <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
           <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">Мы получили ваш заказ №</span>
