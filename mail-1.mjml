@@ -3,6 +3,8 @@
     <mj-title>A letter to the client from the payment forms</mj-title>
     <mj-preview>A letter to the client from the payment forms</mj-preview>
     <mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
       h1 {
         all: inherit;
       }
@@ -83,40 +85,40 @@
 
     <mj-section padding="80px 20px 15px 20px">
       <mj-column>
-        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Montserrat, Arial, sans-serif" padding="0">
           <span style="color: #a4aaaf; font-size: 24px; line-height: 38.4px; font-family: Roboto, Arial, sans-serif;">Title:</span>
           $USER_NAME USER_LAST_NAME
         </mj-text>
-        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
-          <span style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto, Arial, sans-serif;">заказ №</span>
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Montserrat, Arial, sans-serif" padding="0">
+          <span style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Montserrat, Arial, sans-serif;">заказ №</span>
           $DEALNO
-          <a href="https://www.irandiscovery.ru/" style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto, Arial, sans-serif; text-decoration: none;">IranDiscovery.ru</a>
+          <a href="https://www.irandiscovery.ru/" style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Montserrat, Arial, sans-serif; text-decoration: none;">IranDiscovery.ru</a>
         </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section padding="15px 20px 8px 20px">
       <mj-column>
-        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
-          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">Здравствуйте,</span>
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Montserrat, Arial, sans-serif" padding="0">
+          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Montserrat, Arial, sans-serif;">Здравствуйте,</span>
           $USER_NAME USER_LAST_NAME<span style="color: #444444; font: 20px Montserrat, Arial, sans-serif; line-height: 38.4px; -webkit-text-size-adjust:none;">!</span>
         </mj-text>
-        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Roboto, Arial, sans-serif" padding="0">
-          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">Мы получили ваш заказ №</span>
+        <mj-text font-size="24px" line-height="38.4px" color="#ff6a00" font-family="Montserrat, Arial, sans-serif" padding="0">
+          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Montserrat, Arial, sans-serif;">Мы получили ваш заказ №</span>
           $DEALNO
-          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">на следующие услуги:</span>
+          <span style="color: #444444; font-size: 20px; line-height: 32px; font-family: Montserrat, Arial, sans-serif;">на следующие услуги:</span>
         </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section css-class="info-section" padding="8px 40px">
       <mj-column css-class="" border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text css-class="info-row" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
+        <mj-text css-class="info-row" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Montserrat, Arial, sans-serif">
           Туристическая виза в Иран
         </mj-text>
       </mj-column>
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text css-class="info-row" align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
+        <mj-text css-class="info-row" align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Montserrat, Arial, sans-serif">
           10 500 Р
         </mj-text>
       </mj-column>
@@ -125,12 +127,12 @@
 
     <mj-section padding="8px 40px">
       <mj-column border-top="1px dashed #dadada" padding="20px 0 0 0">
-        <mj-text css-class="info-row" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
+        <mj-text css-class="info-row" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Montserrat, Arial, sans-serif">
           Медицинская страховка 15 дней
         </mj-text>
       </mj-column>
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text css-class="info-row" align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
+        <mj-text css-class="info-row" align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Montserrat, Arial, sans-serif">
           1 200 Р
         </mj-text>
       </mj-column>
@@ -138,12 +140,12 @@
 
     <mj-section padding="8px 40px">
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text css-class="info-row" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
+        <mj-text css-class="info-row" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Montserrat, Arial, sans-serif">
           IKIA Fast track & Business lounge
         </mj-text>
       </mj-column>
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text css-class="info-row" align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
+        <mj-text css-class="info-row" align="right" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Montserrat, Arial, sans-serif">
           4 500 Р
         </mj-text>
       </mj-column>
@@ -151,12 +153,12 @@
 
     <mj-section padding="8px 40px 20px 40px">
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text css-class="info-row" padding="0" font-size="20px" font-weight="bold" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
+        <mj-text css-class="info-row" padding="0" font-size="20px" font-weight="bold" line-height="25px" color="#444444" font-family="Montserrat, Arial, sans-serif">
           Итого
         </mj-text>
       </mj-column>
       <mj-column border-top="1px dashed #DADADA" padding="20px 0 0 0">
-        <mj-text css-class="info-row" align="right" font-weight="bold" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Roboto, Arial, sans-serif">
+        <mj-text css-class="info-row" align="right" font-weight="bold" padding="0" font-size="20px" line-height="25px" color="#444444" font-family="Montserrat, Arial, sans-serif">
           16 200 Р
         </mj-text>
       </mj-column>
@@ -171,12 +173,12 @@
 
       <mj-section css-class="payment-sec" padding="20px 0 20px 20px" border="2px solid #DADADA">
         <mj-column width="100%" padding="0px 0 20px 0">
-          <mj-text css-class="payment-title" padding="0" font-size="34px" font-weight="500" line-height="54.4px" color="#444444" font-family="Roboto, Arial, sans-serif">
+          <mj-text css-class="payment-title" padding="0" font-size="34px" font-weight="500" line-height="54.4px" color="#444444" font-family="Montserrat, Arial, sans-serif">
             Оплатить заказ Вы можете по <a href="" style="color: #017ac3;">ссылке</a>
           </mj-text>
         </mj-column>
         <mj-column width="70%">
-          <mj-text padding="0px" font-size="16px" font-weight="400" line-height="25.6px" color="#444444" font-family="Roboto, Arial, sans-serif">
+          <mj-text padding="0px" font-size="16px" font-weight="400" line-height="25.6px" color="#444444" font-family="Montserrat, Arial, sans-serif">
             <span class="payment-text" style="font-weight: 500">Просим Вас, по возможности, осуществить платёж по СБП</span>
             При оплате через СБП мы получим Ваш платёж мгновенно <br>
             и с минимальной комиссией.
@@ -192,7 +194,7 @@
     <mj-wrapper padding="20px 20px" css-class="td-border">
       <mj-section css-class="title-sec" padding="20px 0px" border="2px solid #DADADA">
         <mj-column css-class="title-block" width="100%" padding="0 0 20px 0" vertical-align="top">
-          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
+          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/hotels/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Montserrat, Arial, sans-serif">
             Забронировать отели в Иране
             <img class="title-img" width="15px" src="https://i.postimg.cc/523XRH1G/rent-icon.png">
           </mj-button>
@@ -205,7 +207,7 @@
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
-              <a href="https://www.irandiscovery.ru/hotels/oteli-tegerana/dizin/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Дизин</a>
+              <a href="https://www.irandiscovery.ru/hotels/oteli-tegerana/dizin/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Montserrat, Arial, sans-serif;">Дизин</a>
             </mj-text>
             <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Roboto">
               Тегеран
@@ -226,8 +228,8 @@
               <img src="https://i.postimg.cc/R0SM6Gkp/icon-04.png" width="20px" alt="Картинка">
             </mj-text>
 
-            <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Roboto">
-              <span style="font-size: 20px; font-weight: 400; font-family: Roboto;">от</span> 3 000 ₽
+            <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Montserrat, Arial, sans-serif">
+              <span style="font-size: 20px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">от</span> 3 000 ₽
             </mj-text>
 
           </mj-column>
@@ -241,9 +243,9 @@
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
-              <a href="https://www.irandiscovery.ru/hotels/oteli-isfakhana/safavi/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Сафави</a>
+              <a href="https://www.irandiscovery.ru/hotels/oteli-isfakhana/safavi/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Montserrat, Arial, sans-serif;">Сафави</a>
             </mj-text>
-            <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Roboto">
+            <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Montserrat, Arial, sans-serif">
               Исфахан
             </mj-text>
 
@@ -260,8 +262,8 @@
               <img src="https://i.postimg.cc/Qdk8dvyW/icon-03.png" width="20px" alt="Картинка">
             </mj-text>
 
-            <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Roboto">
-              <span style="font-size: 20px; font-weight: 400; font-family: Roboto;">от</span> 3 000 ₽
+            <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Montserrat, Arial, sans-serif">
+              <span style="font-size: 20px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">от</span> 3 000 ₽
             </mj-text>
 
           </mj-column>
@@ -275,9 +277,9 @@
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
-              <a href="https://www.irandiscovery.ru/hotels/oteli-kashana/sabagian/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Сабагиан</a>
+              <a href="https://www.irandiscovery.ru/hotels/oteli-kashana/sabagian/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Montserrat, Arial, sans-serif;">Сабагиан</a>
             </mj-text>
-            <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Roboto">
+            <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Montserrat, Arial, sans-serif">
               Кашан
             </mj-text>
 
@@ -296,7 +298,7 @@
               <img src="https://i.postimg.cc/R0SM6Gkp/icon-04.png" width="20px" alt="Картинка">
             </mj-text>
 
-            <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Roboto">
+            <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Montserrat, Arial, sans-serif">
               <span style="font-size: 20px; font-weight: 400; font-family: Roboto;">от</span> 4 500 ₽
             </mj-text>
 
@@ -311,9 +313,9 @@
           </mj-column>
           <mj-column padding="0 0px 0 20px">
             <mj-text padding="0 0 3px 0">
-              <a href="https://www.irandiscovery.ru/hotels/oteli-shiraza/fora_mekhr/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Roboto;">Фора Мехр</a>
+              <a href="https://www.irandiscovery.ru/hotels/oteli-shiraza/fora_mekhr/" padding="0" style="border-bottom:1px solid #017ac3; text-decoration: none; color: #017ac3; font-weight: 600; font-size: 18px; line-height: 21.94px; font-family: Montserrat, Arial, sans-serif;">Фора Мехр</a>
             </mj-text>
-            <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Roboto">
+            <mj-text padding="0" vertical-align="top" font-size="14px" font-weight="400" line-height="17.07px" font-family="Montserrat, Arial, sans-serif">
               Шираз
             </mj-text>
 
@@ -331,8 +333,8 @@
               <img src="https://i.postimg.cc/R0SM6Gkp/icon-04.png" width="20px" alt="Картинка">
             </mj-text>
 
-            <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Roboto">
-              <span style="font-size: 20px; font-weight: 400; font-family: Roboto;">от</span> 3 500 ₽
+            <mj-text padding="10px 0 0 0" font-size="20px" font-weight="700" line-height="24px" font-family="Montserrat, Arial, sans-serif">
+              <span style="font-size: 20px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">от</span> 3 500 ₽
             </mj-text>
 
           </mj-column>
@@ -345,7 +347,7 @@
     <mj-wrapper padding="20px 20px" css-class="td-border">
       <mj-section css-class="title-sec" padding="20px 0px" border="2px solid #DADADA">
         <mj-column css-class="title-block" width="100%" padding="0 0 20px 0" vertical-align="top">
-          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/services/gid-v-irane/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
+          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/services/gid-v-irane/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Montserrat, Arial, sans-serif">
             Гиды и переводчики в Иране
             <img class="title-img" width="15px" src="https://i.postimg.cc/523XRH1G/rent-icon.png">
           </mj-button>
@@ -370,7 +372,7 @@
     <mj-wrapper padding="20px 20px" css-class="td-border">
       <mj-section css-class="title-sec" padding="20px 0px" border="2px solid #DADADA">
         <mj-column css-class="title-block" padding="0px" vertical-align="top">
-          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/transp-services/arenda_avtomobilya_v_irane/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Roboto, Arial, sans-serif">
+          <mj-button css-class="title-link" href="https://www.irandiscovery.ru/transp-services/arenda_avtomobilya_v_irane/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Montserrat, Arial, sans-serif">
             Аренда автомобиля Saipa Saina в Иране
             <img class="title-img" width="15px" src="https://i.postimg.cc/523XRH1G/rent-icon.png">
           </mj-button>
@@ -382,33 +384,33 @@
     <mj-section padding="20px 20px 80px 20px">
 
       <mj-column css-class="contacts-column" padding="0px 30px 30px 0" vertical-align="top" border-right="1px solid #e7e7f0">
-        <mj-text padding="0 0 20px 0" font-size="16px" font-weight="400" line-height="19.5px" color="#2c2d2e" font-family="Roboto, Arial, sans-serif">
+        <mj-text padding="0 0 20px 0" font-size="16px" font-weight="400" line-height="19.5px" color="#2c2d2e" font-family="Montserrat, Arial, sans-serif">
           Отдел по работе с клиентами
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="tel:+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+          <a href="tel:+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Montserrat, Arial, sans-serif;">
             <img class="contact-link" src="https://i.postimg.cc/9Mv07Zt4/phone.png" alt="Картинка">
             +7 499 938 46 38</a>
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="https://t.me/+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+          <a href="https://t.me/+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Montserrat, Arial, sans-serif;">
             <img class="contact-link" src="https://i.postimg.cc/L41nMQ2j/telegram.png" alt="Картинка">
             +7 499 938 46 38</a>
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="https://wa.me/+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+          <a href="https://wa.me/+74999384638" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Montserrat, Arial, sans-serif;">
             <img class="contact-link" src="https://i.postimg.cc/28N3jdSM/whatsap.png" alt="Картинка">
             +7 499 938 46 38</a>
         </mj-text>
         <mj-text padding="0 0 6px 0">
-          <a href="mailto:g@irandiscovery.ru" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Roboto, Arial, sans-serif;">
+          <a href="mailto:g@irandiscovery.ru" style="white-space: nowrap; padding-left:5px; vertical-align: bottom; color: #017ac3;  color: #017ac3; font-weight: 400; font-size: 24px; line-height: 29.6px; font-family: Montserrat, Arial, sans-serif;">
             <img class="contact-link" src="https://i.postimg.cc/N0nf3mnN/email.png" alt="Картинка">
             g@irandiscovery.ru</a>
         </mj-text>
       </mj-column>
 
       <mj-column css-class="contacts-column" padding="0px 0 0 30px" vertical-align="top">
-        <mj-text padding="0 0 20px 0" vertical-align="top" font-size="16px" font-weight="400" line-height="19.5px" color="#2c2d2e" font-family="Roboto, Arial, sans-serif">
+        <mj-text padding="0 0 20px 0" vertical-align="top" font-size="16px" font-weight="400" line-height="19.5px" color="#2c2d2e" font-family="Montserrat, Arial, sans-serif">
           С Уважением, команда IranDiscovery
         </mj-text>
         <mj-image align="left" src="https://i.postimg.cc/Qx8CPLqt/logo.jpg"></mj-image>
