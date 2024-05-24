@@ -94,9 +94,9 @@
 				max-width: 313px;
 			}
 
-			.mj-column-px-163 {
-				width: 163px !important;
-				max-width: 163px;
+			.mj-column-per-20 {
+				width: 20% !important;
+				max-width: 20%;
 			}
 		}
 	</style>
@@ -126,9 +126,9 @@
 			max-width: 313px;
 		}
 
-		.moz-text-html .mj-column-px-163 {
-			width: 163px !important;
-			max-width: 163px;
+		.moz-text-html .mj-column-per-20 {
+			width: 20% !important;
+			max-width: 20%;
 		}
 	</style>
 	<style type="text/css">
@@ -143,6 +143,8 @@
 		}
 	</style>
 	<style type="text/css">
+		@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 		h1 {
 			all: inherit;
 		}
@@ -171,6 +173,11 @@
 		.contact-link {
 			margin-right: 10px;
 			margin-bottom: -5px;
+		}
+
+		.card-gid {
+			max-width: 225px !important;
+			width: 25% !important;
 		}
 
 		@media (max-width: 540px) {
@@ -214,6 +221,45 @@
 				border: 0 !important;
 			}
 		}
+
+		@media (max-width: 540px) {
+			.card-gid {
+				max-width: 225px !important;
+				width: 50% !important;
+			}
+		}
+
+		@media (max-width: 480px) {
+			.title-sec td {
+				padding-right: 0 !important;
+			}
+
+			.card-gid td {
+				padding: 3px !important;
+			}
+
+			.img-full {
+				padding-left: 0 !important;
+			}
+
+			.img-full a {
+				height: 200px !important;
+			}
+
+			.img-full img {
+				height: 100% !important;
+			}
+
+			.img-full h3 {
+				left: 50% !important;
+				transform: translateX(-50%) !important;
+			}
+
+			.img-full span {
+				left: 50% !important;
+				transform: translateX(-50%) !important;
+			}
+		}
 	</style>
 </head>
 
@@ -237,7 +283,7 @@
 										<tr>
 											<td align="left" style="font-size: 0px; padding: 0; word-break: break-word;">
 												<div
-													style="font-family: Roboto, Arial, sans-serif; font-size: 24px; line-height: 38.4px; text-align: left; color: #ff6a00;">
+													style="font-family: Montserrat, Arial, sans-serif; font-size: 24px; line-height: 38.4px; text-align: left; color: #ff6a00;">
 													<span
 														style="color: #a4aaaf; font-size: 24px; line-height: 38.4px; font-family: Roboto, Arial, sans-serif;">Title:</span>
 													$USER_NAME USER_LAST_NAME
@@ -247,12 +293,12 @@
 										<tr>
 											<td align="left" style="font-size: 0px; padding: 0; word-break: break-word;">
 												<div
-													style="font-family: Roboto, Arial, sans-serif; font-size: 24px; line-height: 38.4px; text-align: left; color: #ff6a00;">
+													style="font-family: Montserrat, Arial, sans-serif; font-size: 24px; line-height: 38.4px; text-align: left; color: #ff6a00;">
 													<span
-														style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto, Arial, sans-serif;">заказ
+														style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Montserrat, Arial, sans-serif;">заказ
 														№</span> $DEALNO
 													<a href="https://www.irandiscovery.ru/"
-														style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Roboto, Arial, sans-serif; text-decoration: none;">
+														style="color: #000000; font-size: 24px; line-height: 38.4px; font-family: Montserrat, Arial, sans-serif; text-decoration: none;">
 														IranDiscovery.ru
 													</a>
 												</div>
@@ -282,9 +328,9 @@
 										<tr>
 											<td align="left" style="font-size: 0px; padding: 0; word-break: break-word;">
 												<div
-													style="font-family: Roboto, Arial, sans-serif; font-size: 24px; line-height: 38.4px; text-align: left; color: #ff6a00;">
+													style="font-family: Montserrat, Arial, sans-serif; font-size: 24px; line-height: 38.4px; text-align: left; color: #ff6a00;">
 													<span
-														style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">Здравствуйте,</span>
+														style="color: #444444; font-size: 20px; line-height: 32px; font-family: Montserrat, Arial, sans-serif;">Здравствуйте,</span>
 													$USER_NAME USER_LAST_NAME
 													<span
 														style="color: #444444; font: 20px Montserrat, Arial, sans-serif; line-height: 38.4px; -webkit-text-size-adjust: none;">!</span>
@@ -294,12 +340,12 @@
 										<tr>
 											<td align="left" style="font-size: 0px; padding: 0; word-break: break-word;">
 												<div
-													style="font-family: Roboto, Arial, sans-serif; font-size: 24px; line-height: 38.4px; text-align: left; color: #ff6a00;">
+													style="font-family: Montserrat, Arial, sans-serif; font-size: 24px; line-height: 38.4px; text-align: left; color: #ff6a00;">
 													<span
-														style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">Мы
+														style="color: #444444; font-size: 20px; line-height: 32px; font-family: Montserrat, Arial, sans-serif;">Мы
 														получили ваш заказ №</span> $DEALNO
 													<span
-														style="color: #444444; font-size: 20px; line-height: 32px; font-family: Roboto, Arial, sans-serif;">на
+														style="color: #444444; font-size: 20px; line-height: 32px; font-family: Montserrat, Arial, sans-serif;">на
 														следующие услуги:</span>
 												</div>
 											</td>
@@ -332,7 +378,7 @@
 															<td align="left" class="info-row"
 																style="font-size: 0px; padding: 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: left; color: #444444;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: left; color: #444444;">
 																	Туристическая виза в Иран</div>
 															</td>
 														</tr>
@@ -356,7 +402,7 @@
 															<td align="right" class="info-row"
 																style="font-size: 0px; padding: 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: right; color: #444444;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: right; color: #444444;">
 																	10 500 Р</div>
 															</td>
 														</tr>
@@ -392,7 +438,7 @@
 															<td align="left" class="info-row"
 																style="font-size: 0px; padding: 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: left; color: #444444;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: left; color: #444444;">
 																	Медицинская страховка 15 дней</div>
 															</td>
 														</tr>
@@ -416,7 +462,7 @@
 															<td align="right" class="info-row"
 																style="font-size: 0px; padding: 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: right; color: #444444;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: right; color: #444444;">
 																	1 200 Р</div>
 															</td>
 														</tr>
@@ -452,7 +498,7 @@
 															<td align="left" class="info-row"
 																style="font-size: 0px; padding: 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: left; color: #444444;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: left; color: #444444;">
 																	IKIA Fast track & Business lounge</div>
 															</td>
 														</tr>
@@ -476,7 +522,7 @@
 															<td align="right" class="info-row"
 																style="font-size: 0px; padding: 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: right; color: #444444;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; line-height: 25px; text-align: right; color: #444444;">
 																	4 500 Р</div>
 															</td>
 														</tr>
@@ -512,7 +558,7 @@
 															<td align="left" class="info-row"
 																style="font-size: 0px; padding: 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 20px; font-weight: bold; line-height: 25px; text-align: left; color: #444444;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; font-weight: bold; line-height: 25px; text-align: left; color: #444444;">
 																	Итого</div>
 															</td>
 														</tr>
@@ -536,7 +582,7 @@
 															<td align="right" class="info-row"
 																style="font-size: 0px; padding: 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 20px; font-weight: bold; line-height: 25px; text-align: right; color: #444444;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; font-weight: bold; line-height: 25px; text-align: right; color: #444444;">
 																	16 200 Р</div>
 															</td>
 														</tr>
@@ -609,7 +655,7 @@
 																				<td align="left" class="payment-title"
 																					style="font-size: 0px; padding: 0; word-break: break-word;">
 																					<div
-																						style="font-family: Roboto, Arial, sans-serif; font-size: 34px; font-weight: 500; line-height: 54.4px; text-align: left; color: #444444;">
+																						style="font-family: Montserrat, Arial, sans-serif; font-size: 34px; font-weight: 500; line-height: 54.4px; text-align: left; color: #444444;">
 																						Оплатить заказ Вы можете по <a href=""
 																							style="color: #017ac3;">ссылке</a>
 																					</div>
@@ -632,7 +678,7 @@
 																<td align="left"
 																	style="font-size: 0px; padding: 0px; word-break: break-word;">
 																	<div
-																		style="font-family: Roboto, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25.6px; text-align: left; color: #444444;">
+																		style="font-family: Montserrat, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25.6px; text-align: left; color: #444444;">
 																		<span class="payment-text" style="font-weight: 500;">Просим Вас,
 																			по возможности, осуществить платёж по СБП</span> При оплате
 																		через СБП мы получим Ваш платёж
@@ -735,7 +781,7 @@
                                                                                                                 display: inline-block;
                                                                                                                 background: transparent;
                                                                                                                 color: #017ac3;
-                                                                                                                font-family: Roboto, Arial, sans-serif;
+                                                                                                                font-family: Montserrat, Arial, sans-serif;
                                                                                                                 font-size: 18.7px;
                                                                                                                 font-weight: 500;
                                                                                                                 line-height: 22.8px;
@@ -837,7 +883,7 @@
                                                                                                         font-weight: 600;
                                                                                                         font-size: 18px;
                                                                                                         line-height: 21.94px;
-                                                                                                        font-family: Roboto;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
                                                                                                     ">
 																								Дизин
 																							</a>
@@ -896,9 +942,9 @@
 																					<td align="left"
 																						style="font-size: 0px; padding: 10px 0 0 0; word-break: break-word;">
 																						<div
-																							style="font-family: Roboto; font-size: 20px; font-weight: 700; line-height: 24px; text-align: left; color: #000000;">
+																							style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 24px; text-align: left; color: #000000;">
 																							<span
-																								style="font-size: 20px; font-weight: 400; font-family: Roboto;">от</span>
+																								style="font-size: 20px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">от</span>
 																							3 000 ₽
 																						</div>
 																					</td>
@@ -985,7 +1031,7 @@
                                                                                                         font-weight: 600;
                                                                                                         font-size: 18px;
                                                                                                         line-height: 21.94px;
-                                                                                                        font-family: Roboto;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
                                                                                                     ">
 																								Сафави
 																							</a>
@@ -996,8 +1042,9 @@
 																					<td align="left" vertical-align="top"
 																						style="font-size: 0px; padding: 0; word-break: break-word;">
 																						<div
-																							style="font-family: Roboto; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: left; color: #000000;">
-																							Исфахан</div>
+																							style="font-family: Montserrat, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: left; color: #000000;">
+																							Исфахан
+																						</div>
 																					</td>
 																				</tr>
 																				<tr>
@@ -1038,9 +1085,9 @@
 																					<td align="left"
 																						style="font-size: 0px; padding: 10px 0 0 0; word-break: break-word;">
 																						<div
-																							style="font-family: Roboto; font-size: 20px; font-weight: 700; line-height: 24px; text-align: left; color: #000000;">
+																							style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 24px; text-align: left; color: #000000;">
 																							<span
-																								style="font-size: 20px; font-weight: 400; font-family: Roboto;">от</span>
+																								style="font-size: 20px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">от</span>
 																							3 000 ₽
 																						</div>
 																					</td>
@@ -1127,7 +1174,7 @@
                                                                                                         font-weight: 600;
                                                                                                         font-size: 18px;
                                                                                                         line-height: 21.94px;
-                                                                                                        font-family: Roboto;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
                                                                                                     ">
 																								Сабагиан
 																							</a>
@@ -1138,8 +1185,9 @@
 																					<td align="left" vertical-align="top"
 																						style="font-size: 0px; padding: 0; word-break: break-word;">
 																						<div
-																							style="font-family: Roboto; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: left; color: #000000;">
-																							Кашан</div>
+																							style="font-family: Montserrat, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: left; color: #000000;">
+																							Кашан
+																						</div>
 																					</td>
 																				</tr>
 																				<tr>
@@ -1185,7 +1233,7 @@
 																					<td align="left"
 																						style="font-size: 0px; padding: 10px 0 0 0; word-break: break-word;">
 																						<div
-																							style="font-family: Roboto; font-size: 20px; font-weight: 700; line-height: 24px; text-align: left; color: #000000;">
+																							style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 24px; text-align: left; color: #000000;">
 																							<span
 																								style="font-size: 20px; font-weight: 400; font-family: Roboto;">от</span>
 																							4 500 ₽
@@ -1274,7 +1322,7 @@
                                                                                                         font-weight: 600;
                                                                                                         font-size: 18px;
                                                                                                         line-height: 21.94px;
-                                                                                                        font-family: Roboto;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
                                                                                                     ">
 																								Фора Мехр
 																							</a>
@@ -1285,8 +1333,9 @@
 																					<td align="left" vertical-align="top"
 																						style="font-size: 0px; padding: 0; word-break: break-word;">
 																						<div
-																							style="font-family: Roboto; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: left; color: #000000;">
-																							Шираз</div>
+																							style="font-family: Montserrat, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: left; color: #000000;">
+																							Шираз
+																						</div>
 																					</td>
 																				</tr>
 																				<tr>
@@ -1330,9 +1379,9 @@
 																					<td align="left"
 																						style="font-size: 0px; padding: 10px 0 0 0; word-break: break-word;">
 																						<div
-																							style="font-family: Roboto; font-size: 20px; font-weight: 700; line-height: 24px; text-align: left; color: #000000;">
+																							style="font-family: Montserrat, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 24px; text-align: left; color: #000000;">
 																							<span
-																								style="font-size: 20px; font-weight: 400; font-family: Roboto;">от</span>
+																								style="font-size: 20px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">от</span>
 																							3 500 ₽
 																						</div>
 																					</td>
@@ -1371,8 +1420,8 @@
 									<tbody>
 										<tr>
 											<td
-												style="border: 2px solid #dadada; direction: ltr; font-size: 0px; padding: 20px 0px; text-align: center;">
-												<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="title-block-outlook" style="vertical-align:top;width:684px;" ><![endif]-->
+												style="border: 2px solid #dadada; direction: ltr; font-size: 0px; padding: 20px 20px 20px 0; text-align: left;">
+												<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="title-block-outlook" style="vertical-align:top;width:664px;" ><![endif]-->
 												<div class="mj-column-per-100 mj-outlook-group-fix title-block"
 													style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
 													<table border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -1400,7 +1449,7 @@
                                                                                                                 display: inline-block;
                                                                                                                 background: transparent;
                                                                                                                 color: #017ac3;
-                                                                                                                font-family: Roboto, Arial, sans-serif;
+                                                                                                                font-family: Montserrat, Arial, sans-serif;
                                                                                                                 font-size: 18.7px;
                                                                                                                 font-weight: 500;
                                                                                                                 line-height: 22.8px;
@@ -1429,43 +1478,51 @@
 														</tbody>
 													</table>
 												</div>
-												<!--[if mso | IE]></td><td class="" style="vertical-align:top;width:163px;" ><![endif]-->
-												<div class="mj-column-px-163 mj-outlook-group-fix"
+												<!--[if mso | IE]></td><td class="card-gid-outlook" style="vertical-align:top;width:132.8px;" ><![endif]-->
+												<div class="mj-column-per-20 mj-outlook-group-fix card-gid"
 													style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
 													<table border="0" cellpadding="0" cellspacing="0" role="presentation"
 														width="100%">
 														<tbody>
 															<tr>
-																<td style="vertical-align: top; padding: 8px;">
+																<td style="vertical-align: top; padding: 15px 0 15px 25px;">
 																	<table border="0" cellpadding="0" cellspacing="0" role="presentation"
 																		width="100%">
 																		<tbody>
 																			<tr>
 																				<td align="left"
 																					style="font-size: 0px; padding: 0; word-break: break-word;">
-																					<table border="0" cellpadding="0" cellspacing="0"
-																						role="presentation"
-																						style="border-collapse: collapse; border-spacing: 0px;">
-																						<tbody>
-																							<tr>
-																								<td style="width: 147px;">
-																									<img height="auto"
-																										src="https://i.postimg.cc/FzQd17cg/gid-01.jpg"
-																										style="
-                                                                                                                border: 0;
-                                                                                                                border-radius: 6px;
-                                                                                                                display: block;
-                                                                                                                outline: none;
-                                                                                                                text-decoration: none;
-                                                                                                                height: auto;
-                                                                                                                width: 100%;
-                                                                                                                font-size: 13px;
-                                                                                                            "
-																										width="147" />
-																								</td>
-																							</tr>
-																						</tbody>
-																					</table>
+																					<div
+																						style="font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1; text-align: left; color: #000000;">
+																						<a href=""
+																							style="position: relative; display: block;">
+																							<img width="100%" height="100%"
+																								src="https://i.postimg.cc/Bv7nWs94/Frame-5350-1.jpg"
+																								loading="lazy" alt="Картинка" />
+																							<h3 style="
+                                                                                                        color: #ffffff;
+                                                                                                        position: absolute;
+                                                                                                        bottom: 18px;
+                                                                                                        left: 10px;
+                                                                                                        font-size: 18px;
+                                                                                                        font-weight: 600;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								Арвин
+																							</h3>
+																							<span style="
+                                                                                                        color: #ffffff;
+                                                                                                        position: absolute;
+                                                                                                        bottom: 15px;
+                                                                                                        left: 10px;
+                                                                                                        font-size: 14px;
+                                                                                                        font-weight: 400;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								Гид в Тегеране
+																							</span>
+																						</a>
+																					</div>
 																				</td>
 																			</tr>
 																		</tbody>
@@ -1475,43 +1532,51 @@
 														</tbody>
 													</table>
 												</div>
-												<!--[if mso | IE]></td><td class="" style="vertical-align:top;width:163px;" ><![endif]-->
-												<div class="mj-column-px-163 mj-outlook-group-fix"
+												<!--[if mso | IE]></td><td class="card-gid-outlook" style="vertical-align:top;width:132.8px;" ><![endif]-->
+												<div class="mj-column-per-20 mj-outlook-group-fix card-gid"
 													style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
 													<table border="0" cellpadding="0" cellspacing="0" role="presentation"
 														width="100%">
 														<tbody>
 															<tr>
-																<td style="vertical-align: top; padding: 8px;">
+																<td style="vertical-align: top; padding: 15px 0 15px 25px;">
 																	<table border="0" cellpadding="0" cellspacing="0" role="presentation"
 																		width="100%">
 																		<tbody>
 																			<tr>
 																				<td align="left"
 																					style="font-size: 0px; padding: 0; word-break: break-word;">
-																					<table border="0" cellpadding="0" cellspacing="0"
-																						role="presentation"
-																						style="border-collapse: collapse; border-spacing: 0px;">
-																						<tbody>
-																							<tr>
-																								<td style="width: 147px;">
-																									<img height="auto"
-																										src="https://i.postimg.cc/zDnH6FZd/gid-02.jpg"
-																										style="
-                                                                                                                border: 0;
-                                                                                                                border-radius: 6px;
-                                                                                                                display: block;
-                                                                                                                outline: none;
-                                                                                                                text-decoration: none;
-                                                                                                                height: auto;
-                                                                                                                width: 100%;
-                                                                                                                font-size: 13px;
-                                                                                                            "
-																										width="147" />
-																								</td>
-																							</tr>
-																						</tbody>
-																					</table>
+																					<div
+																						style="font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1; text-align: left; color: #000000;">
+																						<a href=""
+																							style="position: relative; display: block;">
+																							<img width="100%" height="100%"
+																								src="https://i.postimg.cc/kGL6tpQ3/Frame-5350-2.jpg"
+																								loading="lazy" alt="Картинка" />
+																							<h3 style="
+                                                                                                        color: #ffffff;
+                                                                                                        position: absolute;
+                                                                                                        bottom: 18px;
+                                                                                                        left: 10px;
+                                                                                                        font-size: 18px;
+                                                                                                        font-weight: 600;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								Эльхам
+																							</h3>
+																							<span style="
+                                                                                                        color: #ffffff;
+                                                                                                        position: absolute;
+                                                                                                        bottom: 15px;
+                                                                                                        left: 10px;
+                                                                                                        font-size: 14px;
+                                                                                                        font-weight: 400;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								Гид в Кашане
+																							</span>
+																						</a>
+																					</div>
 																				</td>
 																			</tr>
 																		</tbody>
@@ -1521,43 +1586,51 @@
 														</tbody>
 													</table>
 												</div>
-												<!--[if mso | IE]></td><td class="" style="vertical-align:top;width:163px;" ><![endif]-->
-												<div class="mj-column-px-163 mj-outlook-group-fix"
+												<!--[if mso | IE]></td><td class="card-gid-outlook" style="vertical-align:top;width:132.8px;" ><![endif]-->
+												<div class="mj-column-per-20 mj-outlook-group-fix card-gid"
 													style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
 													<table border="0" cellpadding="0" cellspacing="0" role="presentation"
 														width="100%">
 														<tbody>
 															<tr>
-																<td style="vertical-align: top; padding: 8px;">
+																<td style="vertical-align: top; padding: 15px 0 15px 25px;">
 																	<table border="0" cellpadding="0" cellspacing="0" role="presentation"
 																		width="100%">
 																		<tbody>
 																			<tr>
 																				<td align="left"
 																					style="font-size: 0px; padding: 0; word-break: break-word;">
-																					<table border="0" cellpadding="0" cellspacing="0"
-																						role="presentation"
-																						style="border-collapse: collapse; border-spacing: 0px;">
-																						<tbody>
-																							<tr>
-																								<td style="width: 147px;">
-																									<img height="auto"
-																										src="https://i.postimg.cc/KjrKTxDX/gid-03.jpg"
-																										style="
-                                                                                                                border: 0;
-                                                                                                                border-radius: 6px;
-                                                                                                                display: block;
-                                                                                                                outline: none;
-                                                                                                                text-decoration: none;
-                                                                                                                height: auto;
-                                                                                                                width: 100%;
-                                                                                                                font-size: 13px;
-                                                                                                            "
-																										width="147" />
-																								</td>
-																							</tr>
-																						</tbody>
-																					</table>
+																					<div
+																						style="font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1; text-align: left; color: #000000;">
+																						<a href=""
+																							style="position: relative; display: block;">
+																							<img width="100%" height="100%"
+																								src="https://i.postimg.cc/43XKtt9d/Frame-5350-3.jpg"
+																								loading="lazy" alt="Картинка" />
+																							<h3 style="
+                                                                                                        color: #ffffff;
+                                                                                                        position: absolute;
+                                                                                                        bottom: 18px;
+                                                                                                        left: 10px;
+                                                                                                        font-size: 18px;
+                                                                                                        font-weight: 600;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								Мехди
+																							</h3>
+																							<span style="
+                                                                                                        color: #ffffff;
+                                                                                                        position: absolute;
+                                                                                                        bottom: 15px;
+                                                                                                        left: 10px;
+                                                                                                        font-size: 14px;
+                                                                                                        font-weight: 400;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								Гид в Тегеране
+																							</span>
+																						</a>
+																					</div>
 																				</td>
 																			</tr>
 																		</tbody>
@@ -1567,43 +1640,51 @@
 														</tbody>
 													</table>
 												</div>
-												<!--[if mso | IE]></td><td class="" style="vertical-align:top;width:163px;" ><![endif]-->
-												<div class="mj-column-px-163 mj-outlook-group-fix"
+												<!--[if mso | IE]></td><td class="card-gid-outlook" style="vertical-align:top;width:132.8px;" ><![endif]-->
+												<div class="mj-column-per-20 mj-outlook-group-fix card-gid"
 													style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%;">
 													<table border="0" cellpadding="0" cellspacing="0" role="presentation"
 														width="100%">
 														<tbody>
 															<tr>
-																<td style="vertical-align: top; padding: 8px;">
+																<td style="vertical-align: top; padding: 15px 0 15px 25px;">
 																	<table border="0" cellpadding="0" cellspacing="0" role="presentation"
 																		width="100%">
 																		<tbody>
 																			<tr>
 																				<td align="left"
 																					style="font-size: 0px; padding: 0; word-break: break-word;">
-																					<table border="0" cellpadding="0" cellspacing="0"
-																						role="presentation"
-																						style="border-collapse: collapse; border-spacing: 0px;">
-																						<tbody>
-																							<tr>
-																								<td style="width: 147px;">
-																									<img height="auto"
-																										src="https://i.postimg.cc/pTj52D9L/gid-04.jpg"
-																										style="
-                                                                                                                border: 0;
-                                                                                                                border-radius: 6px;
-                                                                                                                display: block;
-                                                                                                                outline: none;
-                                                                                                                text-decoration: none;
-                                                                                                                height: auto;
-                                                                                                                width: 100%;
-                                                                                                                font-size: 13px;
-                                                                                                            "
-																										width="147" />
-																								</td>
-																							</tr>
-																						</tbody>
-																					</table>
+																					<div
+																						style="font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1; text-align: left; color: #000000;">
+																						<a href=""
+																							style="position: relative; display: block;">
+																							<img width="100%" height="100%"
+																								src="https://i.postimg.cc/xddzhMTZ/Frame-5350-4.jpg"
+																								loading="lazy" alt="Картинка" />
+																							<h3 style="
+                                                                                                        color: #ffffff;
+                                                                                                        position: absolute;
+                                                                                                        bottom: 18px;
+                                                                                                        left: 10px;
+                                                                                                        font-size: 18px;
+                                                                                                        font-weight: 600;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								Нима
+																							</h3>
+																							<span style="
+                                                                                                        color: #ffffff;
+                                                                                                        position: absolute;
+                                                                                                        bottom: 15px;
+                                                                                                        left: 10px;
+                                                                                                        font-size: 14px;
+                                                                                                        font-weight: 400;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								Гид в Ширазе
+																							</span>
+																						</a>
+																					</div>
 																				</td>
 																			</tr>
 																		</tbody>
@@ -1667,7 +1748,7 @@
                                                                                                                 display: inline-block;
                                                                                                                 background: transparent;
                                                                                                                 color: #017ac3;
-                                                                                                                font-family: Roboto, Arial, sans-serif;
+                                                                                                                font-family: Montserrat, Arial, sans-serif;
                                                                                                                 font-size: 18.7px;
                                                                                                                 font-weight: 500;
                                                                                                                 line-height: 22.8px;
@@ -1690,31 +1771,44 @@
 																				</td>
 																			</tr>
 																			<tr>
-																				<td align="center"
-																					style="font-size: 0px; padding: 10px 25px; word-break: break-word;">
-																					<table border="0" cellpadding="0" cellspacing="0"
-																						role="presentation"
-																						style="border-collapse: collapse; border-spacing: 0px;">
-																						<tbody>
-																							<tr>
-																								<td style="width: 634px;">
-																									<img height="auto"
-																										src="https://i.postimg.cc/fyZyD1n8/rent.jpg"
-																										style="
-                                                                                                                border: 0;
-                                                                                                                border-radius: 6px;
-                                                                                                                display: block;
-                                                                                                                outline: none;
-                                                                                                                text-decoration: none;
-                                                                                                                height: auto;
-                                                                                                                width: 100%;
-                                                                                                                font-size: 13px;
-                                                                                                            "
-																										width="634" />
-																								</td>
-																							</tr>
-																						</tbody>
-																					</table>
+																				<td align="left" class="img-full"
+																					style="font-size: 0px; padding: 20px 20px 0 20px; word-break: break-word;">
+																					<div
+																						style="font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1; text-align: left; color: #000000;">
+																						<a href="https://www.irandiscovery.ru/transp-services/arenda_avtomobilya_v_irane/"
+																							style="position: relative; display: block; border-radius: 6px; overflow: hidden;">
+																							<img width="100%" height="100%"
+																								src="https://i.postimg.cc/xCXYwTmY/Frame-5351-1.jpg"
+																								loading="lazy" alt="Картинка" />
+																							<h3 style="
+                                                                                                        color: #ffffff;
+                                                                                                        z-index: 3;
+                                                                                                        position: absolute;
+                                                                                                        top: 25px;
+                                                                                                        margin: 0;
+                                                                                                        left: 20px;
+                                                                                                        font-size: 32px;
+                                                                                                        font-weight: 700;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								45 ЕВРО
+																							</h3>
+																							<span style="
+                                                                                                        color: #ffffff;
+                                                                                                        z-index: 3;
+                                                                                                        position: absolute;
+                                                                                                        top: 60px;
+                                                                                                        left: 65px;
+                                                                                                        font-size: 16px;
+                                                                                                        font-weight: 400;
+                                                                                                        font-family: Montserrat, Arial, sans-serif;
+                                                                                                    ">
+																								в сутки
+																							</span>
+																							<span
+																								style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #00000010;"></span>
+																						</a>
+																					</div>
 																				</td>
 																			</tr>
 																		</tbody>
@@ -1756,7 +1850,7 @@
 															<td align="left"
 																style="font-size: 0px; padding: 0 0 20px 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 19.5px; text-align: left; color: #2c2d2e;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 19.5px; text-align: left; color: #2c2d2e;">
 																	Отдел по работе с клиентами
 																</div>
 															</td>
@@ -1775,7 +1869,7 @@
                                                                                 font-weight: 400;
                                                                                 font-size: 24px;
                                                                                 line-height: 29.6px;
-                                                                                font-family: Roboto, Arial, sans-serif;
+                                                                                font-family: Montserrat, Arial, sans-serif;
                                                                             ">
 																		<img class="contact-link"
 																			src="https://i.postimg.cc/9Mv07Zt4/phone.png" alt="Картинка" />
@@ -1798,7 +1892,7 @@
                                                                                 font-weight: 400;
                                                                                 font-size: 24px;
                                                                                 line-height: 29.6px;
-                                                                                font-family: Roboto, Arial, sans-serif;
+                                                                                font-family: Montserrat, Arial, sans-serif;
                                                                             ">
 																		<img class="contact-link"
 																			src="https://i.postimg.cc/L41nMQ2j/telegram.png"
@@ -1821,7 +1915,7 @@
                                                                                 font-weight: 400;
                                                                                 font-size: 24px;
                                                                                 line-height: 29.6px;
-                                                                                font-family: Roboto, Arial, sans-serif;
+                                                                                font-family: Montserrat, Arial, sans-serif;
                                                                             ">
 																		<img class="contact-link"
 																			src="https://i.postimg.cc/28N3jdSM/whatsap.png"
@@ -1844,7 +1938,7 @@
                                                                                 font-weight: 400;
                                                                                 font-size: 24px;
                                                                                 line-height: 29.6px;
-                                                                                font-family: Roboto, Arial, sans-serif;
+                                                                                font-family: Montserrat, Arial, sans-serif;
                                                                             ">
 																		<img class="contact-link"
 																			src="https://i.postimg.cc/N0nf3mnN/email.png" alt="Картинка" />
@@ -1873,7 +1967,7 @@
 															<td align="left" vertical-align="top"
 																style="font-size: 0px; padding: 0 0 20px 0; word-break: break-word;">
 																<div
-																	style="font-family: Roboto, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 19.5px; text-align: left; color: #2c2d2e;">
+																	style="font-family: Montserrat, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 19.5px; text-align: left; color: #2c2d2e;">
 																	С Уважением, команда IranDiscovery
 																</div>
 															</td>
