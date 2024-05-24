@@ -35,6 +35,11 @@
         margin-bottom: -5px;
       }
 
+      .card-gid {
+        max-width: 225px !important;
+        width: 25% !important;
+      }
+
       @media (max-width: 540px) {
         .contacts-column td {
           border-right: none !important;
@@ -75,8 +80,24 @@
         .title-sec td {
           border: 0 !important;
         }
+      }
 
+      @media (max-width: 540px) {
+        .card-gid {
+          max-width: 225px !important;
+          width: 50% !important;
+        }
 
+      }
+
+      @media (max-width: 480px) {
+        .title-sec td {
+          padding-right: 0 !important;
+        }
+
+        .card-gid td {
+          padding: 3px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -345,7 +366,7 @@
     </mj-wrapper>
 
     <mj-wrapper padding="20px 20px" css-class="td-border">
-      <mj-section css-class="title-sec" padding="20px 0px" border="2px solid #DADADA">
+      <mj-section css-class="title-sec" text-align="left" padding="20px 20px 20px 0" border="2px solid #DADADA">
         <mj-column css-class="title-block" width="100%" padding="0 0 20px 0" vertical-align="top">
           <mj-button css-class="title-link" href="https://www.irandiscovery.ru/services/gid-v-irane/" text-decoration="underline" padding="0" align="left" background-color="transparent" vertical-align="top" font-size="18.7px" font-weight="500" line-height="22.8px" color="#017ac3" font-family="Montserrat, Arial, sans-serif">
             Гиды и переводчики в Иране
@@ -353,17 +374,41 @@
           </mj-button>
         </mj-column>
 
-        <mj-column width="163px" padding="8px">
-          <mj-image align="left" padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/FzQd17cg/gid-01.jpg"></mj-image>
+        <mj-column css-class="card-gid" padding="15px 0 15px 25px">
+          <mj-text padding="0">
+            <a href="" style="position: relative; display: block;">
+              <img width="100%" height="100%" src="https://i.postimg.cc/Bv7nWs94/Frame-5350-1.jpg" loading="lazy" alt="Картинка">
+              <h3 style="color:#ffffff; position: absolute; bottom: 18px; left:10px; font-size: 18px; font-weight: 600; font-family: Montserrat, Arial, sans-serif;">Арвин</h3>
+              <span style="color:#ffffff; position: absolute; bottom: 15px; left:10px; font-size: 14px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">Гид в Тегеране</span>
+            </a>
+          </mj-text>
         </mj-column>
-        <mj-column width="163px" padding="8px">
-          <mj-image align="left" padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/zDnH6FZd/gid-02.jpg"></mj-image>
+        <mj-column css-class="card-gid" padding="15px 0 15px 25px">
+          <mj-text padding="0">
+            <a href="" style="position: relative; display: block">
+              <img width="100%" height="100%" src="https://i.postimg.cc/kGL6tpQ3/Frame-5350-2.jpg" loading="lazy" alt="Картинка">
+              <h3 style="color:#ffffff; position: absolute; bottom: 18px; left:10px; font-size: 18px; font-weight: 600; font-family: Montserrat, Arial, sans-serif;">Эльхам</h3>
+              <span style="color:#ffffff; position: absolute; bottom: 15px; left:10px; font-size: 14px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">Гид в Кашане</span>
+            </a>
+          </mj-text>
         </mj-column>
-        <mj-column width="163px" padding="8px">
-          <mj-image align="left" padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/KjrKTxDX/gid-03.jpg"></mj-image>
+        <mj-column css-class="card-gid" padding="15px 0 15px 25px">
+          <mj-text padding="0">
+            <a href="" style="position: relative; display: block">
+              <img width="100%" height="100%" src="https://i.postimg.cc/43XKtt9d/Frame-5350-3.jpg" loading="lazy" alt="Картинка">
+              <h3 style="color:#ffffff; position: absolute; bottom: 18px; left:10px; font-size: 18px; font-weight: 600; font-family: Montserrat, Arial, sans-serif;">Мехди</h3>
+              <span style="color:#ffffff; position: absolute; bottom: 15px; left:10px; font-size: 14px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">Гид в Тегеране</span>
+            </a>
+          </mj-text>
         </mj-column>
-        <mj-column width="163px" padding="8px">
-          <mj-image align="left" padding="0" border-radius="6px" width="154px" src="https://i.postimg.cc/pTj52D9L/gid-04.jpg"></mj-image>
+        <mj-column css-class="card-gid" padding="15px 0 15px 25px">
+          <mj-text padding="0">
+            <a href="" style="position: relative; display: block">
+              <img width="100%" height="100%" src="https://i.postimg.cc/xddzhMTZ/Frame-5350-4.jpg" loading="lazy" alt="Картинка">
+              <h3 style="color:#ffffff; position: absolute; bottom: 18px; left:10px; font-size: 18px; font-weight: 600; font-family: Montserrat, Arial, sans-serif;">Нима</h3>
+              <span style="color:#ffffff; position: absolute; bottom: 15px; left:10px; font-size: 14px; font-weight: 400; font-family: Montserrat, Arial, sans-serif;">Гид в Ширазе</span>
+            </a>
+          </mj-text>
         </mj-column>
 
       </mj-section>
